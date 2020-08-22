@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/**font-family: 'Merriweather', serif;*/
+/*@font-face
+{
+    font-family: 'raleway';
+    src: url(../portfolio/fontawesome-free-5.14.0-web/css/all.min.css);
+}*/
+body,html
+{
+    padding: 0;
+    margin: 0;
+
+}
+.body
+{
+    font-family: 'Merriweather', serif;
+
+}
+a, a:hover
+{
+    text-decoration: none;
+}
+.container-fluid
+{
+    padding: 0;
+}
+/*-------header------------*/
+.header
+{
+    background-color: #0574AB;
+    height: 70px;
+    line-height: 70px;
+}
+.logo
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.menu
+{
+    float: right;
+
+
+}
+.menu a
+{
+    color: #ffffff;
+    margin-right: 20px;
+
+}
+.menu a:hover
+{
+    color: #0b2957;
+} 
+
+/*--------baniere------------*/
+.banner
+{
+    width: 100%;
+    max-width: 100%;
+}
+.ban
+{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.inner-banner
+{
+    position: absolute;
+    top: 40% ;
+    width: 100%;
+    text-align: center;
+}
+.inner-banner h1
+{
+    /*color: rgba(8, 8, 8, 0.404);*/
+    width: 100%;
+    text-shadow: 1px 1px 28px#8c9fbb ;
+}
+.inner-banner .btn-secondary
+{
+    background-color: #0574AB;
+    color: white;
+}
+.inner-banner .btn-secondary:hover
+{
+    background-color: #073247;
+}
+.ban img
+{
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.separateur
+{
+    height: 3px;
+    width: 10%;
+    border: none;
+    box-shadow: none;
+    background-color: #0a86ec;
+    
+}
+/*-----about-------*/
+#about
+{
+    text-align: center;
+    padding-top: 5%;
+}
+.about article
+{
+    margin-top: 2px;
+    padding-top: 5%;
+}
+.about article h2
+{
+ text-align: center;
+}
+/*----------portfolio-----------------*/
+/*-------------End-section-3-------------------------------------*/
+.section-3
+{
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-wrapper
+{
+    width: 80%;
+    flex-wrap: wrap;
+}
+.project
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    position: relative;
+    overflow: hidden;
+}
+.project:hover .
+{
+    box-shadow: 1rem 1rem 1rem #777;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+}
+.project-text
+{
+    text-align: center;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: -10rem;
+    z-index:10;
+    transition: top 0.3s;
+}
+.project:hover .project-text
+{
+    top: 5rem;
+    transition: top 0.3s;
+}
+.project-name
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+.project-technologies
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.project-img
+{
+    width: 42rem;
+    height: 20rem;
+    transition: opacity 0.3s;
+}
+.project:hover .project-img
+{
+    opacity: 0.2;
+}
+.project-link
+{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 0.1rem;
+    border: 0.3rem solid #e41c6f;
+    margin-top: -200px;
+    padding: 0.1rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5rem; 
+    transition: bottom 0.3s;
+}
+.project:hover .project-link
+{
+    bottom: 5rem;
+    transition: bottom0 0.3s 0.3s ;
+}
+/*-------------End-section-3-------------------------------------*/
+
+/*.portfolio
+    {
+        background-color: whitesmoke;
+        
+    #portfolio
+    {
+        text-align: center;
+        
+    }
+    .portfolio .item-folio
+    {
+        height: 100px;
+        background-color: #1badda;
+    }
+    
+*/
+
+
+/*-----------contact---------*/

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <title>Apprendre Bootsrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Apprendre bootstrap">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/js/bootstrap.js">
+    </head>
+    <body>
+            <a href="#" class="btn btn-info btn-lg">ouvrir modal</a>
+            <div class="modal fade" id="monmodal">
+                <div class="modal-dialog">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Titre de notre modal</h1>
+                            <button type="button" class="close" data-dismiss="modal">Fermer</button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer ">
+                        </div>
+                    </div>
+                </div>
+            </div
+<section class="section-3">
+                    <h1 class="section-3-heading">My Project</h1>
+                    <div class="project-wrapper center">
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">PORTFOLIO</h2>
+                                <h4 class="project-technologies">HTML/CSS/JS</h4>
+                            </div>
+                            <img src="asset/image/portfolio.PNG" class="project-img">
+                            <a href="index.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">CV-ONLINE</h2>
+                                <h4 class="project-technologies">HTML/CSS</h4>
+                            </div>
+                            <img src="asset/image/cv-onligne.PNG" class="project-img img">
+                            <a href="../vacance/EXERCICE_pierre_Girroud/index.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">CV</h2>
+                                <h4 class="project-technologies">HTML/CSS</h4>
+                            </div>
+                            <img src="asset/image/cv.PNG" class="project-img">
+                            <a href="../PROJET-CV/index.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">FIRST-SITE</h2>
+                                <h4 class="project-technologies">HTML/CSS</h4>
+                            </div>
+                            <img src="asset/image/first-sit.PNG" class="project-img">
+                            <a href="../PROJET1/COURS_CSS.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">My Blog</h2>
+                                <h4 class="project-technologies">HTML/CSS</h4>
+                            </div>
+                            <img src="asset/image/blog.PNG" class="project-img">
+                            <a href="../TP-HTML/site1.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                        <div class="project">
+                            <div class="project-text">
+                                <h2 class="project-name">My Blog</h2>
+                                <h4 class="project-technologies">HTML/CSS</h4>
+                            </div>
+                            <img src="asset/image/inp.PNG" class="project-img">
+                            <a href="../PROJETMICHEL/index.html" class="project-link" target="_blank">Go to the site</a>
+                        </div>
+                    </div>
+                </section>
+
+
